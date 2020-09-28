@@ -252,8 +252,8 @@ slotsSchema.statics.book = async (slot_number, req) => {
     if(slot == null) {
       return {'error': true, 'msg': 'No slot available with number ' + slot_number}
     }
-    if(slot.is_reserved && !req.user.is_differently_abled) {
-        return {'error': true, 'msg': 'Slot is reserved for differently abled people' }
+    if(slot.is_reserved && (!req.user.is_differently_abled || !req.user.is_pregnant)) {
+        return {'error': true, 'msg': 'Slot is reserved' }
     }
     slot.is_booked      = true
     slot.is_occupied    = false
