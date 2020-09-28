@@ -61,6 +61,7 @@ There are 3 collections:
 
 ## Code Structure
 Entire application code can be found inside src directory.
+```
 .
 ├── node_modules
 ├── src
@@ -87,6 +88,7 @@ Entire application code can be found inside src directory.
 ├── LICENSE
 ├── README.md
 └── package.json
+```
 
 
 #### 1. [app.js](https://github.com/rnaikd/parking_manager/blob/master/src/app.js) 
