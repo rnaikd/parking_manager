@@ -44,7 +44,7 @@ This application has no views, it serves only APIs
 
 For APIs, use below postman collections:
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/125c685aa850b540163f){:target="_blank"}
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/125c685aa850b540163f)
 
 ### OR 
 
