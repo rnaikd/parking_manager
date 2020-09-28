@@ -90,6 +90,13 @@ Entire application code can be found inside src directory.
 └── package.json
 ```
 
+## Dependencies Used
+1. bcryptjs - For password encryption.
+2. express - For HTTP utility methods and middleware at disposal, creating a robust API.
+3. jsonwebtoken - Enable JWT tokens to application.
+4. mongodb - NoSQL database to store and process data.
+5. mongoose - For mongodb object modeling.
+6. validator - Add validation support to models
 
 ## TODO
 1. Paging for listing routes
