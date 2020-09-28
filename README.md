@@ -60,3 +60,35 @@ There are 3 collections:
 3. [Logs](https://github.com/rnaikd/parking_manager/blob/master/src/models/Log.js) - Stores user activities.
 
 ## Code Structure
+Entire application code can be found inside src directory.
+.
+├── node_modules
+├── src
+|   ├── db
+|   |   └── db.js
+|   ├── middlewares
+|   |   ├── auth.js
+|   |   └── admin.js
+|   ├── models
+|   |   ├── Log.js
+|   |   ├── Slots.js
+|   |   └── User.js
+|   ├── routers
+|   |   ├── handle.js
+|   |   ├── logsv1.js
+|   |   ├── responsemanager.js
+|   |   ├── slotsv1.js 
+|   |   └── userv1.js
+|   ├── seeders
+|   |   ├── slots.js
+|   |   └── users.js
+|   └── app.js
+├── .env
+├── LICENSE
+├── README.md
+└── package.json
+
+
+#### 1. [app.js](https://github.com/rnaikd/parking_manager/blob/master/src/app.js) 
+app.js is application server which servers all requests and manages to include all required files and functions of application and expressjs framework
+
