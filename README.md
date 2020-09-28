@@ -91,6 +91,10 @@ Entire application code can be found inside src directory.
 ```
 
 
-#### 1. [app.js](https://github.com/rnaikd/parking_manager/blob/master/src/app.js) 
-app.js is application server which servers all requests and manages to include all required files and functions of application and expressjs framework
+## TODO
+1. Paging for listing routes
+2. Filters for user lists
+3. Filters for Logs list
+4. Mocha/chai tests 
+5. Few validations
 
