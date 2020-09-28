@@ -66,25 +66,25 @@ Entire application code can be found inside src directory.
 ├── node_modules
 ├── src
 │   ├── db
-│   │   └── db.js
+│   │   └── db.js                     # Database connection
 │   ├── middlewares
-│   │   ├── auth.js
-│   │   └── admin.js
+│   │   ├── auth.js                   # Authentication middleware for application
+│   │   └── admin.js                  # Authorization middleware for application
 │   ├── models
-│   │   ├── Log.js
-│   │   ├── Slots.js
-│   │   └── User.js
+│   │   ├── Log.js                    # Log table stucture
+│   │   ├── Slots.js                  # Slots table stucture
+│   │   └── User.js                   # User table stucture
 │   ├── routers
-│   │   ├── handle.js
-│   │   ├── logsv1.js
-│   │   ├── responsemanager.js
-│   │   ├── slotsv1.js 
-│   │   └── userv1.js
+│   │   ├── handle.js                 # Handles default actions/response for user's requests on routes those are not defined
+│   │   ├── logsv1.js                 # Manage application's users activity logs
+│   │   ├── responsemanager.js        # Provides wrapper to API response structure 
+│   │   ├── slotsv1.js                # Manage actions related to slots
+│   │   └── userv1.js                 # Manage user related actions
 │   ├── seeders
-│   │   ├── slots.js
-│   │   └── users.js
-│   └── app.js
-├── .env
+│   │   ├── slots.js                  # Provides random data for 120 slots and inserts into database removing old data
+│   │   └── users.js                  # Provides random data for 150 users and inserts into database removing old data
+│   └── app.js                        # Runs app and servers application requests
+├── .env                              # Configurations of environment
 ├── LICENSE
 ├── README.md
 └── package.json
