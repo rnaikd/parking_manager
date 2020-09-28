@@ -65,25 +65,25 @@ Entire application code can be found inside src directory.
 .
 ├── node_modules
 ├── src
-|   ├── db
-|   |   └── db.js
-|   ├── middlewares
-|   |   ├── auth.js
-|   |   └── admin.js
-|   ├── models
-|   |   ├── Log.js
-|   |   ├── Slots.js
-|   |   └── User.js
-|   ├── routers
-|   |   ├── handle.js
-|   |   ├── logsv1.js
-|   |   ├── responsemanager.js
-|   |   ├── slotsv1.js 
-|   |   └── userv1.js
-|   ├── seeders
-|   |   ├── slots.js
-|   |   └── users.js
-|   └── app.js
+│   ├── db
+│   │   └── db.js
+│   ├── middlewares
+│   │   ├── auth.js
+│   │   └── admin.js
+│   ├── models
+│   │   ├── Log.js
+│   │   ├── Slots.js
+│   │   └── User.js
+│   ├── routers
+│   │   ├── handle.js
+│   │   ├── logsv1.js
+│   │   ├── responsemanager.js
+│   │   ├── slotsv1.js 
+│   │   └── userv1.js
+│   ├── seeders
+│   │   ├── slots.js
+│   │   └── users.js
+│   └── app.js
 ├── .env
 ├── LICENSE
 ├── README.md
